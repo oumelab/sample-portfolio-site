@@ -1,0 +1,1 @@
+export const MOBILE_MEDIA_QUERY = "(width >= 40rem)";
