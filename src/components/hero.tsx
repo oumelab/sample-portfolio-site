@@ -12,7 +12,7 @@ export default function Hero() {
       </h2>
       <p>React と Tailwind CSS が好きな、<br className="sm:hidden" />初心者プログラマの @handle です！</p>
       <Button className="bg-emerald-600 text-white w-10/12 sm:w-28" asChild>
-        <a href="/">
+        <a href="#">
           <FaGithub />
           GitHub
         </a>

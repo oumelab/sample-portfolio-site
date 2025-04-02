@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {Button} from "./ui/button";
-import {PROJECTS} from "@/constants";
+import {PROJECTS, BASE_URL} from "@/constants";
 import clsx from "clsx";
 
 export default function Portfolio() {
@@ -40,7 +40,7 @@ export default function Portfolio() {
             <div className="w-full h-full bg-zinc-100 border border-zinc-400 rounded-xl flex flex-col text-center overflow-hidden shadow-lg">
               <div className="w-full h-[334px] overflow-hidden">
                 <img
-                  src={selectedProject.img}
+                  src={BASE_URL + selectedProject.img}
                   alt={selectedProject.title}
                   className="w-full h-full object-cover object-[50%_0%]"
                 />
