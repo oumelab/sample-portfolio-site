@@ -1,0 +1,28 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+    path {
+      fill: #fff;
+    }
+    .background {
+        fill: #1E1E1E;
+    }
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #1A1A1A;
+      }
+      .background {
+        fill: #fff;
+      }
+    }
+  </style>
+<rect width="48" height="48" fill="#1E1E1E"/>
+<g clip-path="url(#clip0_0_1)">
+<rect width="48" height="48" fill="white" class="background"/>
+<path d="M19.1825 25.8636V41H11.9212V6.09091H18.978V19.4375H19.2848C19.8757 17.892 20.8303 16.6818 22.1484 15.8068C23.4666 14.9205 25.12 14.4773 27.1087 14.4773C28.9268 14.4773 30.5121 14.875 31.8643 15.6705C33.228 16.4545 34.2848 17.5852 35.0348 19.0625C35.7962 20.5284 36.1712 22.2841 36.1598 24.3295V41H28.8984V25.625C28.9098 24.0114 28.5007 22.7557 27.6712 21.858C26.853 20.9602 25.7053 20.5114 24.228 20.5114C23.2393 20.5114 22.3643 20.7216 21.603 21.142C20.853 21.5625 20.2621 22.1761 19.8303 22.983C19.4098 23.7784 19.1939 24.7386 19.1825 25.8636Z" fill="#1E1E1E" fill-opacity="0.76"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

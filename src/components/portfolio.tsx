@@ -12,7 +12,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div id="portfolio" className="bg-muted py-28 px-4">
+    <section id="portfolio" className="bg-muted py-28 px-4">
       <div className="mx-auto max-w-3xl">
         <h3 className="text-[40px] font-bold">Portfolio</h3>
         <p className="mt-6 text-muted-foreground">
@@ -59,6 +59,6 @@ export default function Portfolio() {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

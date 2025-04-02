@@ -3,7 +3,7 @@ import {FaGithub} from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="w-full mx-auto flex flex-col gap-6 justify-center items-center text-muted-foreground bg-muted py-20 px-5">
+    <section className="w-full mx-auto flex flex-col gap-6 justify-center items-center text-muted-foreground bg-muted py-20 px-5">
       <p className="size-12 rounded-full grid place-content-center bg-yellow-300/30 border border-zinc-200 text-2xl">
         👋
       </p>
@@ -17,6 +17,6 @@ export default function Hero() {
           GitHub
         </a>
       </Button>
-    </div>
+    </section>
   );
 }
