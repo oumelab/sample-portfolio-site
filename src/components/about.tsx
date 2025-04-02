@@ -1,8 +1,10 @@
+import { BASE_URL } from "@/constants"
+
 export default function About() {
   return (
     <section id="about" className="max-w-3xl mx-auto py-28 px-4 flex flex-col-reverse sm:flex-row justify-center gap-5">
       <div className="sm:w-[680px] h-auto rounded-md overflow-hidden">
-        <img src="camp-coffee.webp" className="w-full h-full object-cover" alt="" />
+        <img src={`${BASE_URL}/camp-coffee.webp`} className="w-full h-full object-cover" alt="" />
       </div>
       <div className="sm:w-[640px] flex flex-col gap-4">
         <h3 className="font-bold text-[40px]">About</h3>
