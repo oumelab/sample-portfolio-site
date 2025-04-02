@@ -7,13 +7,13 @@ import Social from "./components/social";
 
 export default function App() {
   return (
-    <div className="w-full min-h-dvh">
+    <main className="w-full min-h-dvh">
       <Header />
       <Hero />
       <About />
       <Portfolio />
       <Social />
       <Footer />
-    </div>
+    </main>
   )
 }

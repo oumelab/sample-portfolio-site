@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div id="about" className="max-w-3xl mx-auto py-28 px-4 flex flex-col-reverse sm:flex-row justify-center gap-5">
-      <div className="sm:w-[680px] h-auto bg-amber-200 rounded-md overflow-hidden">
+      <div className="sm:w-[680px] h-auto rounded-md overflow-hidden">
         <img src="camp-coffee.webp" className="w-full h-full object-cover" alt="" />
       </div>
       <div className="sm:w-[640px] flex flex-col gap-4">
