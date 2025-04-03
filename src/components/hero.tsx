@@ -12,7 +12,7 @@ export default function Hero() {
         Welcome to{" "}<span className="inline-block">My Portfolio</span>
       </h2>
       <p>React と Tailwind CSS が好きな、<br className="sm:hidden" />初心者プログラマの @handle です！</p>
-      <Button className="bg-emerald-600 text-white w-10/12 sm:w-28 hover:bg-emerald-300/30" asChild>
+      <Button className="bg-emerald-600 text-white w-10/12 sm:w-28 dark:hover:bg-emerald-300/30" asChild>
         <a href={SOCIAL.github} target="_blank">
           <FaGithub className="size-6" />
           GitHub

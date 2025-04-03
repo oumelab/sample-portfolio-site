@@ -46,7 +46,7 @@ const SocialLinkCard = ({url, children}: {url:string, children: React.ReactNode}
 
 export default function Social() {
   return (
-    <section id="social" className="w-full py-28 px-4 mx-auto dark:bg-zinc-900">
+    <section id="social" className="w-full py-28 px-4 mx-auto dark:bg-zinc-800">
       <h3 className="font-bold text-[40px] text-center">Social</h3>
       <p className="mt-6 sm:text-center text-muted-foreground">
         私は、主に下記の媒体で、活動の記録を更新しています。

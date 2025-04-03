@@ -12,7 +12,7 @@ export default function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="bg-muted py-28 px-4">
+    <section id="portfolio" className="bg-muted py-28 px-4 dark:bg-zinc-900">
       <div className="mx-auto max-w-3xl">
         <h3 className="text-[40px] font-bold">Portfolio</h3>
         <p className="mt-6 text-muted-foreground">
