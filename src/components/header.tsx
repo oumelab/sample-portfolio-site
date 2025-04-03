@@ -47,6 +47,7 @@ export default function Header() {
           className="fixed inset-0 mt-60 bg-black/30"
           onClick={() => {
             setMenuIsOpen(false);
+            document.body.classList.remove("overflow-hidden");
           }}
         />
       )}

@@ -26,9 +26,9 @@ export default function Portfolio() {
                   key={index}
                   onClick={() => handleSelectProjectIndex(index)}
                   variant="outline"
-                  className={clsx("w-full h-full flex justify-start gap-2 border border-zinc-200 bg-muted hover:border-zinc-400 hover:bg-white rounded-xl py-2 sm:py-7 px-2 cursor-pointer", index === selectedProjectIndex && "bg-white border-zinc-400")}
+                  className={clsx("w-full h-full flex justify-start gap-2 border border-zinc-200 dark:text-muted-foreground bg-muted dark:bg-zinc-900 hover:border-zinc-400 hover:bg-white dark:hover:text-foreground rounded-xl py-2 sm:py-7 px-2 cursor-pointer", index === selectedProjectIndex && "dark:text-foreground bg-white border-zinc-400 dark:border-zinc-500 dark:bg-input/50")}
                 >
-                  <span className="size-11 border border-zinc-200 rounded-full bg-white grid place-content-center text-xl">
+                  <span className="size-11 border border-zinc-200 dark:border-zinc-500 rounded-full bg-white dark:bg-zinc-800 grid place-content-center text-xl">
                     {item.emoji}
                   </span>
                   <span>{item.title}</span>
@@ -37,15 +37,16 @@ export default function Portfolio() {
             ))}
           </ul>
           {selectedProject && (
-            <div className="w-full h-full bg-zinc-100 border border-zinc-400 rounded-xl flex flex-col text-center overflow-hidden shadow-lg">
-              <div className="w-full h-[334px] overflow-hidden">
+            <div className="w-full h-full bg-zinc-100 border border-zinc-400 dark:border-zinc-500 rounded-xl flex flex-col text-center overflow-hidden shadow-lg">
+              <div className="w-full h-[334px] overflow-hidden relative">
                 <img
                   src={BASE_URL + selectedProject.img}
                   alt={selectedProject.title}
                   className="w-full h-full object-cover object-[50%_0%]"
                 />
+                <div className="absolute inset-0 bg-transparent dark:bg-accent/20" />
               </div>
-              <div className="place-self-end text-left bg-white py-4 px-5">
+              <div className="place-self-end text-left bg-white dark:bg-zinc-800/95 py-4 px-5">
                 <p className="text-sm">{selectedProject.desc}</p>
                 <Button
                   variant="link"
