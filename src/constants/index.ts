@@ -34,3 +34,9 @@ export const PROJECTS: Project[] = [ // プロジェクトのリスト
     githubUrl: "#",
   },
 ];
+
+export const SOCIAL = {
+  github: "#",
+  X: "#",
+  blog: "#",
+}
