@@ -4,6 +4,7 @@ import {useMatchMedia} from "@/hooks/useMatchMedia";
 import {MOBILE_MEDIA_QUERY} from "@/constants";
 import {Button} from "./ui/button";
 import { Menu, X } from "lucide-react";
+import { ModeToggle } from "./mode-toggle";
 
 export default function Header() {
   const isMobile = useMatchMedia(MOBILE_MEDIA_QUERY);
@@ -49,7 +50,7 @@ export default function Header() {
               : "hidden"
           )}
         >
-          <ul className="flex flex-col gap-3 sm:static sm:flex-row sm:w-fit sm:gap-6">
+          <ul className="flex flex-col gap-3 sm:static sm:flex-row sm:items-center sm:w-fit sm:gap-6">
             {menuLinks.map((link) => (
               <li key={link.name}>
                 <a
@@ -61,6 +62,9 @@ export default function Header() {
                 </a>
               </li>
             ))}
+            <li>
+              <ModeToggle />
+            </li>
           </ul>
         </nav>
         <Button
